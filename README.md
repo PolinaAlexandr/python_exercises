@@ -2,6 +2,5 @@
 
 - class realization
     - interactive with user inputs 
-        - color variety (users way) 
-    - with color names
+        - <s>color variety (users way) </s>
 - decorator realization 
