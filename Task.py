@@ -6,7 +6,18 @@ class Color:
 
     def __init__(self, color):
         self.color = color 
+        
 
+    @staticmethod
+    def str_to_color(input):
+        str_to_color_dict = {
+            '1': Color.RED,
+            '2': Color.GREEN,
+            '3': Color.YELLOW
+        }
+
+        return str_to_color_dict.get(input, Color.RED)
+        
 
     def __enter__(self):
         print('\033[{}m'.format(self.color))
