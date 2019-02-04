@@ -3,10 +3,13 @@ from Task import Color
 
 def prn():
     user_text = input("Enter some text: ")
-    user_input = input("""Enter color:\n 1: RED\n 2: GREEN\n 3: YELLOW\n Your choise: """)
+    try:
+        user_input = int(input("""Enter color:\n 1: RED\n 2: GREEN\n 3: YELLOW\n Your choise: """))
     # TODO check for int
+    except ValueError as ex:
+        print("This is not number, try again. ", ex)
 
-    color = Color.str_to_color(user_input)
+    color = Color.int_to_color(user_input)
     
     with Color(color):
         print(user_text)

@@ -9,14 +9,14 @@ class Color:
         
 
     @staticmethod
-    def str_to_color(input):
-        str_to_color_dict = {
+    def int_to_color(input):
+        int_to_color_dict = {
             '1': Color.RED,
             '2': Color.GREEN,
             '3': Color.YELLOW
         }
 
-        return str_to_color_dict.get(input, Color.RED)
+        return int_to_color_dict.get(input, Color.RED)
         
 
     def __enter__(self):
