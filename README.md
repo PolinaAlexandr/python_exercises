@@ -1,5 +1,7 @@
 # Python terminal text decoration
+
 - class realization
-  - without color names
-  - with color names variety
+    - interactive with user inputs 
+        - color variety (users way) 
+    - with color names
 - decorator realization 
