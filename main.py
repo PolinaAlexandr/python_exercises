@@ -1,8 +1,11 @@
 from Task import Color
 
 
-def u_input():
-    print("here you could enter something")
-    user_input = input("Enter something: ")
-    with Color(user_input):
-        print(user_input)
+def prn():
+    with Color(Color.RED):
+        print("Это красная строка")
+        print("Это тоже красная строка")
+
+
+if __name__ == '__main__':
+    prn()
