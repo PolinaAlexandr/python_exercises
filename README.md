@@ -2,5 +2,6 @@
 
 - class realization
     - interactive with user inputs 
-        - <s>color variety (users way) </s>
+        - <s>text-color variety (users choise) </s>
+        - bsckground-color variety (users choise)
 - decorator realization 
