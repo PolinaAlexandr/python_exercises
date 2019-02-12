@@ -1,5 +1,5 @@
 # Python exercises
-<s>(fix folder system)</s>
+<s>(fix and clear folder system)</s>
 - Python phone number task(i'll remember full task later)
     - dicts, datetime and superlong variables names
 
