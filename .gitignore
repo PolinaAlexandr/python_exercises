@@ -1,5 +1,5 @@
 .idea/
 *__pycache__*
 *venv/*
-*.vscode/*
+.vscode/
 phone_number_task/venv/
