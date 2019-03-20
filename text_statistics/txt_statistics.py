@@ -17,9 +17,3 @@ for root, dirs, files in os.walk(root_dir, topdown=True):
     if '.txt' in files:
         texts = []
         words_count = list(Counter(texts[0]).most_common(1)[0])
-
-
-
-
-if __name__ == "__main__":
-    pass
