@@ -7,3 +7,8 @@
     $ source .venv/bin/activate
     $ python filename
 ```
+3) Python .txt files analysis:
+
+```shell
+    $ python txt_statistics.py 
+```
